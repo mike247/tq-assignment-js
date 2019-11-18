@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './actionButton.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 const ActionButton = (props) => {
   const { label, role, onSubmit } = props;
 

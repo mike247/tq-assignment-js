@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './input.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 const Input = (props) => {
   const { placeholder, name, onChangeHandler } = props;
   return (
