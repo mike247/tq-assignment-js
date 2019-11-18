@@ -15,7 +15,7 @@ introduce some unnecessary context switching for any future devlopers if this wa
 
 - How would transitions or animations improve this implementation? Can you add them?
 
-We can animate css changes with teh transition: property. Things like max-height and good targets for this technique.
+We can animate css changes with the transition: property. Things like max-height and good targets for this technique.
 
 - At which viewport size should the responsive behaviour change? In other words, what should the media query breakpoint be? How do you decide that?
 
