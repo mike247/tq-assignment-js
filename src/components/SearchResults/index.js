@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import TicketRow from '../reusable/TicketRow';
 import './searchResults.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 const SearchResults = (props) => {
   const { searchResults } = props;
   const rows = searchResults.map((row) => (

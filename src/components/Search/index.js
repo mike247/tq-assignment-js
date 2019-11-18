@@ -4,7 +4,6 @@ import ActionButton from '../reusable/ActionButton';
 import Input from '../reusable/Input';
 import './search.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 const Search = (props) => {
   const { handleSearch, updateQuery } = props;
 

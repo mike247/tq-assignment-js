@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './ticketRow.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 const TicketRow = (props) => {
   const {
     imageUrl, title, summary, price, productUrl,
