@@ -24,4 +24,5 @@ In real world sites it makes sense to have multiple media breakpoints for comple
 tailored for that device size.
 
 - The expanding sub-menus on hover can be done with CSS only, or with JS. Which one makes more sense here, and why?
+
 This is easiest todo with just plain css and the :hover
