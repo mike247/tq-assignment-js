@@ -16,7 +16,8 @@ This README assumes you have these dependencies already. If you need instruction
 
 # .env File IMPORTANT
 
-Before starting the development server, you will need to add a .env file to the root of the directory with the following content
+Before starting the development server, you will need to check the .env file is set up correctly for your environment.
+A .env file has been committed with the following settings 
 
 ```
 REACT_APP_API_URL=http://localhost:3001

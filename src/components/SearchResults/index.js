@@ -6,7 +6,14 @@ import './searchResults.css';
 const SearchResults = (props) => {
   const { searchResults } = props;
   const rows = searchResults.map((row) => (
-    <TicketRow imageUrl={row.image} title={row.title} summary={row.summary} price={row.price} productUrl={row.productUrl} key={row.id} />
+    <TicketRow
+      imageUrl={row.image}
+      title={row.title}
+      summary={row.summary}
+      price={row.price}
+      productUrl={row.productUrl}
+      key={row.id}
+    />
   ));
   return (
     <div className="searchResults">
